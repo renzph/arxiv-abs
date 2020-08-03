@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Arxiv abs",
+  "description": "Move from arxiv pdf to abstract.",
+  "version": "0.1",
+  "permissions": [
+     "activeTab",
+     "declarativeContent"
+  ],
+  "page_action": {
+    "default_icon": "images/get_started16.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
